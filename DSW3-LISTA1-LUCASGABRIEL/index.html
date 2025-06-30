@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mapa Mundi</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <h1>Explorador de Países</h1>
+  <p>Explore o mapa! Ao passar o mouse sobre cada país, suas informações aparecerão no painel inferior.</p>
+  <div id="info">
+    <p><strong>Nome:</strong> <span id="name"></span></p>
+    <p><strong>Capital:</strong> <span id="capital"></span></p>
+    <p><strong>Moeda:</strong> <span id="currency"></span></p>
+    <p><strong>Continente:</strong> <span id="continent"></span></p>
+    <p><strong>Bandeira:</strong><br><img id="flag" src="" alt="Bandeira do País" /></p>
+  </div>
+
+  <object id="map" type="image/svg+xml" data="assets/images/world.svg" aria-label="Mapa Mundi Interativo"></object>
+
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
