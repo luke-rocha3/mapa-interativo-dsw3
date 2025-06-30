@@ -20,15 +20,19 @@ Este projeto consiste em uma aplicação web interativa que exibe **informaçõe
 - SVG para representação gráfica do mapa-múndi
 
 ## 📁 Estrutura do projeto
+
+```
+.
 ├── index.html
 ├── README.md
 ├── assets/
-│ ├── js/
-│ │ └── script.js
-│ ├── css/
-│ │ └── style.css
-│ └── images/
-│ └── world.svg
+│   ├── js/
+│   │   └── script.js
+│   ├── css/
+│   │   └── style.css
+│   └── images/
+│       └── world.svg
+```
 
 ## 🚀 Como executar
 
